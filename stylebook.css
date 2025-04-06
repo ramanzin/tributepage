@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(89, 73, 73);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(89, 73, 73);
+    
+    
+}
+.titulo {
+    font-size: 40px;
+    color: rgb(244, 136, 5);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    align-content: center;
+    font-family: cursive;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.book {
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+.container img {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+}
+
+.textabout {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    color: rgb(0, 0, 0);
+    height: 250px;
+}
+.description {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px;
+
+}
+.content {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    text-align: justify;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    margin-right: 30px;   
+}
+img {
+    width: 50px;
+}

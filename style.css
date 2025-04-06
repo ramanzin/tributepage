@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(89, 73, 73);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(89, 73, 73);    
+}
+.titulo{
+    font-size: 40px;
+    display: block;
+    color: rgb(244, 136, 5);
+    text-shadow: 1px 1px black;
+   
+    font-family: cursive;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.book {
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+.container img {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+}
+.textabout {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    height: 200px;
+}
+.description {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: italic;
+    display: block;
+    margin-top: 50px;
+    padding: 20px;
+
+}
+.content {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    
+    padding: 20px;
+    margin-top: 50px;
+    
+    
+}
+section {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+   
+}
+.livro_title{
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    align-content: center;
+}
+img {
+    width: 130px;
+    padding: 30px;
+    justify-content: center;
+}
